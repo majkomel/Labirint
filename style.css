@@ -1,0 +1,55 @@
+/* Splošno telo strani */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: #0b0c2a; /* temno modro vesolje */
+    color: white;
+    background-image: url("img/vesolje.png"); /* optional, zvezdno ozadje */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Container za igro */
+.game {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Canvas za labirint */
+canvas {
+    background: white; /* labirint ima belo ozadje */
+    border: 3px solid #333; /* klasičen rob */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Kontrole ob strani */
+.controls {
+    width: 200px;
+}
+
+/* Gumbi */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #555; /* temno siv gumb */
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover efekt za gumb */
+button:hover {
+    background-color: #3311ff; /* svetlo modro za vesoljski občutek */
+}
+
+/* Naslov strani */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
